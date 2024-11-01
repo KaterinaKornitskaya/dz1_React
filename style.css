@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+p, h2, li{
+    font-family: "Lato", sans-serif;
+}
+h1{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 48px;
+}
+#mainSect{
+    /* border: 1px solid red; */
+    margin: 1em auto;
+    width: 90%;
+    display: flex;
+    padding: 1em;
+}
+
+#photoSect{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+}
+
+.citySect{
+    /* border: 1px solid green; */
+    width: 20%;
+    text-align: center;
+}
+
+.aboutSect{
+    /* border: 1px solid blue; */
+    width: 80%;
+}
+
+.photoSectInside{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    align-items: flex-end;
+}
+
+.photoSectInside div{
+    padding: 4px;
+}
+
+.photoSectInside img{
+    width: 100%;
+}
+
+#task2MainSect{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightcoral;
+}
+
+.task2TitleComp{
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+}
+
+.task2PhotoComp{
+    /* border: 1px solid red; */
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.task2PhotoComp img{
+    height: 400px;
+}
+
+.task2IngrComp{
+    /* border: 1px solid red; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.task2AboutComp{
+    /* border: 1px solid red; */
+    width: 90%;  
+}
+
+li{
+    list-style-type: square;
+}

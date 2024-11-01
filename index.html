@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Odesa</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="mainSect"></section>
+    <section id="photoSect"></section>
+    <script type="text/babel" src="cityNameComponent.jsx"></script>
+    <script type="text/babel" src="aboutCityComponent.jsx"></script>
+    <script type="text/babel" src="photoComponent.jsx"></script>
+
+    <script type="text/babel">
+        "use strict";
+        const rootNode = document.getElementById("mainSect");
+        const root = ReactDOM.createRoot(rootNode);
+        root.render(
+            <React.StrictMode>
+                <CityName/>
+                <AboutCity/>
+            </React.StrictMode>          
+        );
+
+        const rootNode2 = document.getElementById("photoSect");
+        const rootPhoto = ReactDOM.createRoot(rootNode2);
+        rootPhoto.render(
+            <React.StrictMode>
+                <Photo/>
+            </React.StrictMode>          
+        )
+    </script>
+
+    
+</body>
+</html>
